@@ -1,0 +1,48 @@
+.background 
+.col-2 
+.col-7
+.col-3{
+background-color: #b43737;
+}
+.card-title{
+width: fit-content;
+padding: 30px;
+}
+.bhaiya{
+    display: flex;
+  justify-content: flex-start ;
+  width: 60px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 30px;
+
+}
+.bhaiya_status{
+    
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 50px;
+  
+}
+.account{
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.background .card{
+    margin-top: 10px;
+}
+.account_name{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card{
+    display: flex ;
+    justify-content: center ;
+}
