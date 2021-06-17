@@ -1,43 +1,5 @@
-// ul {
-//     list-style-type: none;
-//     margin: 0;
-//     padding: 0;
-//     overflow: hidden;
-//     background-color:#fff;
-//   }
-
-//   li {
-//     float: left;
-//   }
-
-//   li a {
-//     display: block;
-//     color: rgb(190, 173, 173);
-//     text-align: center;
-//     padding: 14px 16px;
-//     text-decoration: none;
-//   }
-
-//   li a:hover {
-//     background-color: #111;
-//   }
-// .png {
-//   margin-left: 50px;
-//   size: 10px;
-//   width: 300px;
-//   height: 20px;
-// }
-// .text {
-//   margin-left: 300px;
-// }
-// .home {
-//   margin-left: 400px;
-// }
-// .message {
-//   margin-left: 200px;
-// }
-.parent {
-  background-color: #ebebeb;
+.parents {
+  background-color: #ffffff;
 }
 
 .second {
@@ -48,7 +10,6 @@
 .dummy {
   flex: 1;
 }
-
 .third {
   display: flex;
   flex-direction: row;
@@ -60,21 +21,30 @@
   padding: 5px;
   border-radius: 5px;
   border: none;
+  background-color: rgb(238, 238, 238);
 }
+
 .first {
   display: flex;
   align-items: center;
 }
 .first__profile {
-  margin-left: 10px;
+  margin-left: 150px;
+  cursor: pointer;
 }
 
 .home,
 .messgae,
 .compass,
-.like {
+.like,
+.avatar {
   margin-left: 20px;
+  cursor: pointer;
 }
-.like {
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   margin-right: 30px;
 }
