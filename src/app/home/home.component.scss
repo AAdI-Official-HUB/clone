@@ -1,48 +1,75 @@
-.background 
-.col-2 
-.col-7
-.col-3{
-background-color: #b43737;
+.background {
+  background-color: #ebebeb;
 }
-.card-title{
-width: fit-content;
-padding: 30px;
+.card-title {
+  width: fit-content;
+  padding: 30px;
 }
-.bhaiya{
-    display: flex;
-  justify-content: flex-start ;
+.bhaiya {
+  display: flex;
+  justify-content: flex-start;
   width: 60px;
   height: 50px;
   border-radius: 50%;
   margin-right: 30px;
+}
+.bhaiya_status {
+  width: 60px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+.account {
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  align-items: center;
+}
+.status__card,
+.account_name {
+  margin-top: 100px;
+}
 
+.status__card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
 }
-.bhaiya_status{
-    
-    width: 60px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 50px;
-  
+.profile_status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.account{
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    margin-top: 50px;
+.status__text {
+  margin-left: 15px;
 }
-.background .card{
-    margin-top: 10px;
+
+.feeds {
+  margin-top: 20px;
 }
-.account_name{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
+
+.account_name {
+  position: fixed;
 }
-.card{
-    display: flex ;
-    justify-content: center ;
+.account__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.description {
+  color: #8b8b8d;
+  font-size: small;
+  white-space: nowrap;
+}
+
+.right__account {
+  display: flex;
+  flex-direction: row;
+}
+.right__sidebar {
+  color: rgb(44, 140, 204);
+  cursor: pointer;
 }
